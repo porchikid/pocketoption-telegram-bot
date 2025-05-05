@@ -30,7 +30,7 @@ def start(message):
     pairs = ["EURUSD", "USDJPY", "GBPUSD", "EURUSD_otc", "USDJPY_otc"]
     for pair in pairs:
         markup.add(InlineKeyboardButton(pair, callback_data=f"pair:{pair}"))
-    bot.send_message(message.chat.id, "⚠️ *You are currently trading in DEMO mode.*
+    bot.send_message(message.chat.id, "⚠️ *You are currently trading in DEMO mode.*", parse_mode="Markdown")
 
 Select a pair:", reply_markup=markup, parse_mode='Markdown')
 
