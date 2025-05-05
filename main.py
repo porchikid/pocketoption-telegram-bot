@@ -44,7 +44,7 @@ def check_balance(message):
         time.sleep(1)
         response = ws.recv()
         ws.close()
-        bot.send_message(message.chat.id, f"💰 Balance Info (raw):
+        bot.send_message(message.chat.id, f"💰 Balance Info (raw):\n{response}")
 {response}")
     except Exception as e:
         bot.send_message(message.chat.id, f"❌ Could not check balance: {e}")
