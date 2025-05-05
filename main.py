@@ -32,7 +32,7 @@ def start(message):
         markup.add(InlineKeyboardButton(pair, callback_data=f"pair:{pair}"))
     bot.send_message(message.chat.id, "⚠️ *You are currently trading in DEMO mode.*", parse_mode="Markdown")
 
-Select a pair:", reply_markup=markup, parse_mode='Markdown')
+bot.send_message(message.chat.id, "Select a pair:", reply_markup=markup, parse_mode='Markdown')
 
 @bot.message_handler(commands=['check'])
 def check_balance(message):
