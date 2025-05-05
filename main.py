@@ -1,4 +1,3 @@
-
 import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -31,8 +30,7 @@ def start(message):
     for pair in pairs:
         markup.add(InlineKeyboardButton(pair, callback_data=f"pair:{pair}"))
     bot.send_message(message.chat.id, "⚠️ *You are currently trading in DEMO mode.*", parse_mode="Markdown")
-
-bot.send_message(message.chat.id, "Select a pair:", reply_markup=markup, parse_mode='Markdown')
+    bot.send_message(message.chat.id, "Select a pair:", reply_markup=markup, parse_mode='Markdown')
 
 @bot.message_handler(commands=['check'])
 def check_balance(message):
@@ -45,7 +43,6 @@ def check_balance(message):
         response = ws.recv()
         ws.close()
         bot.send_message(message.chat.id, f"💰 Balance Info (raw):\n{response}")
-{response}")
     except Exception as e:
         bot.send_message(message.chat.id, f"❌ Could not check balance: {e}")
 
