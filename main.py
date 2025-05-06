@@ -1,0 +1,1 @@
+# Placeholder for upgraded PocketOption bot with auto RSI and Sheets logging
