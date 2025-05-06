@@ -1,0 +1,6 @@
+telebot
+websocket-client
+gspread
+oauth2client
+requests
+numpy
