@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "imposing-quasar-459023-j6",
+  "private_key_id": "ce4ebfe615f9a43a4139eab7b47bf120fe16cdb1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDUFiLkb8oKiRh1\nJ0EVry+lEcXRWahYYxX6xaiDGhYfHz8+g5ggHtGwEcm7IOmLQlaAgcZudUa+FDSj\nmeE2FCkv8wefUE8t99sPVxYnhIcuzclkKnY8HKQsdLTuAxAYtFor3OpJ01ptUd30\nettF0w3+l9BOxWPzxhFgSiuS+AjUTTVVVR+4FKVxT7wzi3QdJqabisNvGEXcFke6\nffGf87VCkf7koFfdzHEFWEfPKKdrquNbDOZOeCCbcbrxZlR9Rj5Er8NbHcNipCyZ\nD9uiRD+oBOpS5zHdnZs5kpY7g5ggcYeheGhcISVIsv4ucY1Hk6LzL8XN3JXQJKkk\nVtOk04PPAgMBAAECggEAAK35eqXpDdOWonl3uewPyQWfjqYs5eubXGxZt+HThFID\nT934FNJEdb342YKnfOy/fjXsPtpdWaqS6JtLn3K9Fww+UAJf3pPWvdvXlFTWYg4C\nwTFpo5Or6wCMu96CpLGfQFi633Wv6n3Cqk/id/zPJKuz3SzAvz05PQe/z/6/eH6t\nWEfWiJL9bUE6sX6swXLzLVsJS6FdX3fivUzUS7bQG5wz5oCM2hIIRX5ib0HW1ZEM\nnymCjS0WzWbEKdN6F2hd43cm0/et+y7b2JnHUiK9bkpITdNV4ZCAsa8A0nILNTUU\nI0a8powA9EAsl9t/e8aonA7l2KU5g1EPlQA7iYQWQQKBgQD1WAWy7w65fjY4xhCI\nltZFEJCOmSdolAboCUvnLKYtok7DWyaH4I4y29PKDxF48vD0tg3+C24hHiQjPeLL\n74vp1WA3k0s9IrNZfHiovEdCoG9kaae3nw0sf415ITOqmAd+jTZp7Or9lVH2CyuK\nab4EFa4cpJ8GSLawp6dYQ6CSvwKBgQDdTFNPBo50L0CWDLoBUQjptCostXDcRBZv\nUDKIkaWErBMROuhQc6HJtiCd4ePevSKKbMJN01MqxvjKLdtnx67/Tljw0PS4Ze0h\nyickX9GhkHeKp9vfjB2G4WYFZNZyGlnEYTXkfQrgr5DD1SSuaxIaVZLYCq2FHeRX\nf1l+H9Qi8QKBgQCa7bfDk7R/rFS/K0v7hQzP1jMC6XH6Vye5VU2KMSbLQGhuctv1\nB/ej5C9stHE7KGbCkUhquXsVDLyTSJw0XhPDWMwGrEvh0kzhYHmtTB/P0hIlnZac\nnKKsC+whprbCrnhlEPVglIycD7QPJGSdZkLov2wQiGAnjrlW+rfxQ9tdbwKBgQC0\nOxhScTWN3HoOerj2n4fRxoDevrr3OaDH8ZnmbjBOuFIjI0XXWAV5IZK44yNR4doC\nwQcSmTzPxxMSnnxlrlSQ6782Cgh1MdYKQfjVABDcM6uYSpOhIh1eH66WUATzExDv\nBnj86PX1/ia5x5rDTsKEnhMlTrT5iFnTBQ3e0Y9VEQKBgQCfuRS0ONT+o2RvMT0G\nfv0IayNhQOSnGaJFY+HLKxuxuG+8UuemVIOZoOxGU0wqR941qrnDzJHQAUvbj93c\nb7FmKCLGwM431sCV6qs4DgcnVceIL4CD7BuRFesu+5YCU7LX25+Rdjhhy5Qw6Zsq\nArY3CWI15SfuWaAeEWNMTKXyNA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pocketoption-bot@imposing-quasar-459023-j6.iam.gserviceaccount.com",
+  "client_id": "116113638353745201051",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pocketoption-bot%40imposing-quasar-459023-j6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
