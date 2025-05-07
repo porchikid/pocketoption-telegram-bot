@@ -7,8 +7,8 @@ import requests
 import telebot
 import websocket
 import numpy as np
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+# import gspread
+# from oauth2client.service_account import ServiceAccountCredentials
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # === CONFIG ===
@@ -25,20 +25,14 @@ trade_stats = {"total": 0, "wins": 0, "losses": 0}
 auto_thread = None
 auto_running = False
 
-# === Google Sheets Setup ===
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name(SERVICE_ACCOUNT_FILE, scope)
-sheet_client = gspread.authorize(creds)
-sheet = sheet_client.open_by_url(SPREADSHEET_URL).sheet1
+# === Sheets TEMP DISABLED ===
+# scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+# creds = ServiceAccountCredentials.from_json_keyfile_name(SERVICE_ACCOUNT_FILE, scope)
+# sheet_client = gspread.authorize(creds)
+# sheet = sheet_client.open_by_url(SPREADSHEET_URL).sheet1
 
 def log_to_sheet(data):
-    sheet.append_row([
-        data.get("timestamp"),
-        data.get("pair"),
-        data.get("rsi"),
-        data.get("action"),
-        data.get("status")
-    ])
+    print("LOG (would write to sheet):", data)
 
 def get_binance_rsi(symbol="BTCUSDT", interval="1m", period=14):
     try:
@@ -123,7 +117,7 @@ def auto_trade_loop(chat_id):
             "action": action,
             "status": status
         })
-        bot.send_message(chat_id, f"🔁 {action.upper()} | {pair} | RSI: {rsi} → {status}")
+        bot.send_message(chat_id, f"🔁 {action.upper()} | {pair} | RSI: {rsi} &rarr; {status}")
         time.sleep(60)
 
 @bot.message_handler(commands=['start'])
